@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body{
+    background-color: #749F82;
+    font-family: sans-serif;
+    margin: 60px;
+}
+p,h2{
+    color:#CFFDE1;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+}
+.titulo{
+    color: #FED049;
+    font-size: 55px;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #3D5656;
+    padding: 10px;
+    width: 384px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+  
+}
+input{
+    display: none;
+}
+input:checked + label{
+    background-color:#68B984 ;
+}
+
+
+button{
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 2px;
+    border-radius: 10px;
+    background-color: #FED049;
+    border: transparent;
+
+   
+        min-width: 130px;
+        height: 40px;
+        color: #fff;
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border-radius: 5px;
+        border: none;
+        background: #80ed99;
+        box-shadow: 0 5px #57cc99;
+      }
+      button:hover {
+        box-shadow: 0 3px #57cc99;
+        top: 1px;
+      }
+     button:active {
+        box-shadow: 0 0 #57cc99;
+        top: 5px;
+      }
+
+
+
+#seleccionar-mascota{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta-mokepon{
+    width: 350px;
+    height: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-left: 25px;
+    align-items: center;
+    background-color: #3D5656;
+    color: #FBF8CC;
+    box-sizing: border-box;
+    margin: 10px;
+    border-radius: 10px;
+}
+#seleccionar-ataque{
+flex-wrap: wrap;
+flex-direction: column;
+align-items: center;
+    justify-content: center;
+}
+ 
+
+
+.tarjeta-mokepon img{
+    border-radius: 0 10px 10px 0;
+  
+}
+
+.tarjeta-mokepon:hover{
+    background-color: #68B984;
+}
+.etapa2{
+    width: 900px;
+    margin: auto;
+    
+}
+#botones-ataque{
+    margin-top: 2px;
+}
+#subtitulo{
+    font-size: 35px;
+    background-color: #3D5656;
+    padding: 10px;
+    width: 400px;
+    color: #CFFDE1;
+
+}
+#contrincantes{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 20px;  
+    margin: 10px;
+}
+
+    
+#contenedor-img-jugador{
+    background-color: #FED049;
+    
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    font-size: 10px;  
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 190px;
+}
+#contenedor-img-jugador img{
+    border-radius: 10px;
+    position: relative;
+    left: 30px;  
+    top: 7px;  
+    
+}
+#contenedor-img-jugador p,span{
+    font-size: 12px;  
+    color: #3D5656;
+}
+#contenedor-img-enemigo{
+    background-color: #FED049;
+    
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    font-size: 10px;  
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 190px;
+}
+#vidas-jugador{
+    position: relative;
+    top: 162px;
+    right: 64px;
+    z-index: 1;
+    font-size: 13px;
+}
+#contenedor-img-enemigo img{
+    border-radius: 10px;
+    position: relative;
+    left: 30px;    
+    
+}
+#vidas-enemigo{
+    position: relative;
+    top: 152px;
+    right: 15px;
+    z-index: 1;
+    font-size: 13px;
+
+}
+#contenedor-img-enemigo p,span{
+    font-size: 12px;  
+    color: #3D5656;
+
+}
+#mensajes p{
+    font-size: 12px;
+    
+}
+#mensaje-combate{
+    background-color: aqua;
+}
+#peleas-mensajes{
+    margin: 10px;
+  
+}
+#ataque-jugador p{
+    font-size: 10px;
+}
+h3{
+    font-size: 35px;
+    background-color: #3D5656;
+    padding: 20px;
+    padding-bottom: 60px;
+    margin:-32px;
+    color: #CFFDE1;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+#reiniciar{
+    position: absolute;
+    margin: auto;
+    left: 590px;
+    bottom: 120px;
+}
+#reiniciar button{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+#reiniciar button:hover{
+    color:#CFFDE1;
+}
+@media(max-width:360px){
+
+
+}
